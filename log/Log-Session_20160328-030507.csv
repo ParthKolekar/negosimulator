@@ -1,0 +1,80 @@
+Starting negotiation session.
+Round 1
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: Medium, Reliablity: High, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Ninja Power, Cost: Medium , Safety: High, Reliablity: Low, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Supernatural Power, Cost: High, Safety: Low, Reliablity: Low, ])
+Round 2
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: Medium, Reliablity: Low, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Ninja Power, Cost: Medium , Safety: Low, Reliablity: Low, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Supernatural Power, Cost: High, Safety: Low, Reliablity: High, ])
+Round 3
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: High, Reliablity: High, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Ninja Power, Cost: Medium , Safety: High, Reliablity: Medium, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Supernatural Power, Cost: High, Safety: Medium, Reliablity: Low, ])
+Round 4
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: Medium, Reliablity: Medium, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Hydro Power, Cost: Medium , Safety: High, Reliablity: Low, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Ninja Power, Cost: High, Safety: Low, Reliablity: Low, ])
+Round 5
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Medium , Safety: High, Reliablity: High, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Supernatural Power, Cost: High, Safety: High, Reliablity: Low, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: Low, Reliablity: Low, ])
+Round 6
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: High, Reliablity: Low, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Ninja Power, Cost: Low, Safety: High, Reliablity: Low, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Supernatural Power, Cost: Low, Safety: Low, Reliablity: High, ])
+Round 7
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Medium , Safety: Medium, Reliablity: Medium, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Ninja Power, Cost: Medium , Safety: Low, Reliablity: Medium, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Supernatural Power, Cost: High, Safety: Medium, Reliablity: High, ])
+Round 8
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: Low, Reliablity: High, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Ninja Power, Cost: High, Safety: High, Reliablity: Medium, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Supernatural Power, Cost: Low, Safety: Medium, Reliablity: Low, ])
+Round 9
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: High, Safety: High, Reliablity: High, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Hydro Power, Cost: High, Safety: High, Reliablity: Low, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Ninja Power, Cost: Low, Safety: Low, Reliablity: Low, ])
+Round 10
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: High, Reliablity: Medium, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Supernatural Power, Cost: High, Safety: Low, Reliablity: Low, ])
+  Turn 3: Party 3       (Accept)
+Round 11
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Ninja Power, Cost: Low, Safety: Medium, Reliablity: Medium, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Hydro Power, Cost: Medium , Safety: High, Reliablity: Medium, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Ninja Power, Cost: High, Safety: Medium, Reliablity: Low, ])
+Round 12
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Medium , Safety: Low, Reliablity: High, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Ninja Power, Cost: Low, Safety: Low, Reliablity: Low, ])
+  Turn 3: Party 3       (Accept)
+Round 13
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Medium , Safety: Low, Reliablity: High, ])
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Supernatural Power, Cost: High, Safety: High, Reliablity: Medium, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Low, Safety: Medium, Reliablity: Low, ])
+Round 14
+  Turn 1: Party 1       (Accept)
+  Turn 2: Party 2       (Offer: Bid[Type of Source: Ninja Power, Cost: High, Safety: Low, Reliablity: Medium, ])
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Supernatural Power, Cost: High, Safety: Medium, Reliablity: Medium, ])
+Round 15
+  Turn 1: Party 1       (Offer: Bid[Type of Source: Troll Logic Power, Cost: Medium , Safety: High, Reliablity: Medium, ])
+  Turn 2: Party 2       (Accept)
+  Turn 3: Party 3       (Offer: Bid[Type of Source: Troll Logic Power, Cost: High, Safety: High, Reliablity: Low, ])
+Round 16
+  Turn 1: Party 1       (Accept)
+  Turn 2: Party 2       (Accept)
+Found an agreement: Bid[Type of Source: Troll Logic Power, Cost: High, Safety: High, Reliablity: Low, ]
+Finished negotiation session in 0.058s
+Time (s):		0.057834685
+Rounds:		16
+Agreement?:		Yes
+Discounted?:		Yes
+3
+Min. utility:		0.71824
+Max. utility:		0.78391
+Distance to pareto:	0.00000
+Distance to Nash:	0.21153
+Social welfare:		2.22053
+Agent utility:		0.71824 (Party 1)
+Agent utility:		0.78391 (Party 2)
+Agent utility:		0.71838 (Party 3)
+

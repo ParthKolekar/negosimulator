@@ -1,0 +1,50 @@
+<utility_space> 
+<objective index="0" description="" name="Smart Energy Grid" type="objective" etype="objective"> 
+<issue index="1" name="Type of Source" vtype="discrete" type="discrete" etype="discrete"> 
+<item index="1" value="Hydro Power" evaluation="1"> 
+</item> 
+<item index="2" value="Supernatural Power" evaluation="2"> 
+</item> 
+<item index="3" value="Ninja Power" evaluation="3"> 
+</item> 
+<item index="4" value="Troll Logic Power" evaluation="1"> 
+</item> 
+</issue> 
+<issue index="2" name="Cost" vtype="discrete" type="discrete" etype="discrete"> 
+<item index="1" value="High" evaluation="2"> 
+</item> 
+<item index="2" value="Medium " evaluation="3"> 
+</item> 
+<item index="3" value="Low" evaluation="1"> 
+</item> 
+</issue> 
+<issue index="3" name="Safety" vtype="discrete" type="discrete" etype="discrete"> 
+<item index="1" value="High" evaluation="3"> 
+</item> 
+<item index="2" value="Medium" evaluation="1"> 
+</item> 
+<item index="3" value="Low" evaluation="2"> 
+</item> 
+</issue> 
+<issue index="4" name="Reliablity" vtype="discrete" type="discrete" etype="discrete"> 
+<item index="1" value="High" evaluation="1"> 
+</item> 
+<item index="2" value="Medium" evaluation="2"> 
+</item> 
+<item index="3" value="Low" evaluation="3"> 
+</item> 
+</issue> 
+<weight index="1" value="0.18743333438095117"> 
+</weight> 
+<weight index="2" value="0.2513836941745228"> 
+</weight> 
+<weight index="3" value="0.23417724051952002"> 
+</weight> 
+<weight index="4" value="0.32700573092500596"> 
+</weight> 
+</objective> 
+<discount_factor value="0.9"> 
+</discount_factor> 
+<reservation value="0.01"> 
+</reservation> 
+</utility_space> 
