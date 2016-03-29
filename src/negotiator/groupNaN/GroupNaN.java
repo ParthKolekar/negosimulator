@@ -8,8 +8,6 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
-import agents.anac.y2013.MetaAgent.portfolio.thenegotiatorreloaded.TheNegotiatorReloaded_Offering.DiscountTypes;
-
 import negotiator.AgentID;
 import negotiator.Bid;
 import negotiator.Deadline;
@@ -23,6 +21,10 @@ import negotiator.parties.AbstractNegotiationParty;
 import negotiator.session.TimeLineInfo;
 import negotiator.utility.AbstractUtilitySpace;
 
+/**
+ * @author Parth Kolekar
+ * @author Vignesh Prasad
+ */
 public class GroupNaN extends AbstractNegotiationParty {
 	protected AgentID partyId = new AgentID("Group NaN");
 	protected double acceptThreshold = 0.1;
@@ -51,6 +53,7 @@ public class GroupNaN extends AbstractNegotiationParty {
 		}
 	};
 	
+	@Override
 	public void init (AbstractUtilitySpace utilSpace, Deadline dl, TimeLineInfo tl, long randomSeed, AgentID agentId) {
 		super.init(utilSpace, dl, tl, randomSeed, agentId);
 		this.timeLimit = dl.getTimeOrDefaultTimeout();
@@ -71,6 +74,7 @@ public class GroupNaN extends AbstractNegotiationParty {
 	}
 
 	
+	@Override
 	public void receiveMessage(AgentID sender, Action action) {
 		this.latestBids.put(sender, action);
 		if (this.firstBids.get(sender) == null) {
@@ -164,51 +168,20 @@ public class GroupNaN extends AbstractNegotiationParty {
 		
 		System.out.println("Result 2 " + result.size());
 		
-		return getRandomBestBid(result.subList(0, result.size() / 3));
+		return getRandomBestBid(result.subList(0, result.size() / 2));
 	}
 	
-/*	private Bid getGeneticBestBid() {
-		ArrayList<Issue> a= this.domain.getIssues();
-		HashMap<Integer, Value> randomHIV = new HashMap<Integer, Value>();
-		Random random = new Random();
-		
-		for(Issue issue :a) {
-			int ran = Math.ra
-		}
-		return this.bestBid;
-	}*/
 	@Override
 	public Action chooseAction(List<Class<? extends Action>> validActions) {
 		double timeDone= (new Date().getTime() - startTime.getTime())*0.001;
 		if (this.acceptable() || ((this.worstUtil>this.reservationValue) && (this.timeLimit - timeDone <= this.timeThreshold))) {
 			return new Accept();
 		}
-		/*
-		//Bid result = this.getRandomBestBid();
-		//Bid result = this.getGeneticBestBid();
-		HashMap<Integer, Value> randomHIV = new HashMap<Integer, Value>();
-		for(Issue issue : this.domain.getIssues()) {
-			try {
-				randomHIV.put(new Integer(issue.getNumber()), getRandomValue(issue));
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-
-		
-		Bid result;
-		try {
-			result = new Bid(this.domain,randomHIV);
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			result = this.bestBid;
-			e.printStackTrace();
-		}*/
 		this.rounds++;
 		return new Offer(getGeneticBestBid(this.rounds));
 	}
 
+	@Override
 	public AgentID getPartyId() {
 		return this.partyId;
 	}
